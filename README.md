@@ -4,6 +4,10 @@
 
 Maintenance Watch helps an operator see which machine readings warrant review. A Decision Tree scores uploaded CSV rows and incoming readings. The app highlights scores above 50% and can sound an alert, and Power BI tracks the live feed over time.
 
+## Excel uploads and live Power BI
+
+Use the integrated release to score Excel, JSON, Parquet, and other sensor tables in Maintenance Watch. The sample workbook contains a reading the model flags for review. Send the scored rows to the live feed to find the same event in Power BI. [Setup instructions](https://github.com/manivasagam-rajakannan/industrial-predictive-maintenance/tree/portfolio-apps#maintenance-watch) · [Sample workbook](https://github.com/manivasagam-rajakannan/industrial-predictive-maintenance/blob/portfolio-apps/samples/machine-readings.xlsx)
+
 ## Try the app
 
 For the full Python source, training notebook, Docker deployment, Power BI projects, and data, download and extract the project bundle. [MaintenanceWatch.zip](MaintenanceWatch.zip)
