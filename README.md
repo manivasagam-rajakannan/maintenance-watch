@@ -12,7 +12,7 @@ Use the integrated release to score Excel, JSON, Parquet, and other sensor table
 
 For the full Python source, training notebook, Docker deployment, Power BI projects, and data, download and extract the project bundle. [MaintenanceWatch.zip](MaintenanceWatch.zip)
 
-Open the browser app, select **Upload dataset**, then **Try sample**. The sample scores two readings, flags one for review, and plays a beep when sound is enabled. [Open Maintenance Watch](https://manivasagam-rajakannan.github.io/maintenance-watch/)
+Open the browser app, select **Upload dataset**, then **Try sample**. The sample scores two readings, flags one for review, and plays a beep when sound is enabled. [Open Maintenance Watch on Render](https://maintenance-watch-live-f7q1.onrender.com/) · [Browser preview](https://manivasagam-rajakannan.github.io/maintenance-watch/)
 
 Use **Score CSV** to score a file with up to 10,000 readings. The result shows each row's score and any validation errors. **Download results CSV** exports every row with its result and model version. In the hosted app, scoring runs in the browser.
 
